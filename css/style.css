@@ -61,7 +61,7 @@ a{
 }
  .porcentaje{
     position: absolute;
-    width: 808px;
+    width: auto;
     height: 47px;
     top:287px ;
     left: 108px;
