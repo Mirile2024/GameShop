@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif ;
+    }
+
+    header{
+    background-color: #222222;
+    width: 1024px;
+    right: 100px;
+}
+
+nav{
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+
+}
+li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin-left: 8px;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #F3F3F3;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: ;
+}
+.logo{
+    width: 183px;
+    height: 40px;
+    margin-left: 35px;
+    margin: 40px;
+}
+.carrito{
+    width: 25px;
+    height: 24px;
+    margin-left: 46px;
+}
+.fondo{
+    width: 1024px;
+    height: 512px;
+    position: relative;
+}
+.slide{
+    width: 808px;
+    height: 47px;
+    font-size: 40px;
+}
+ .porcentaje{
+    position: absolute;
+    width: 808px;
+    height: 47px;
+    top:287px ;
+    left: 108px;
+    color: #F3F3F3;
+}
+.comprar{
+    position: absolute;
+    background-color: #D01418;
+    width: 220px;
+    height:61px ;
+    top: 364px;
+    left: 402px;
+    border-radius: 5px;
+    border-style: none;
+    color: #F3F3F3;
+    font-size: 25px;
+}
+
+
