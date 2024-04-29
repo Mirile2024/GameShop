@@ -36,7 +36,7 @@ a{
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    width: ;
+   
 }
 .logo{
     width: 183px;
@@ -61,7 +61,7 @@ a{
 }
  .porcentaje{
     position: absolute;
-    width: auto;
+    width: 808px;
     height: 47px;
     top:287px ;
     left: 108px;
@@ -79,5 +79,26 @@ a{
     color: #F3F3F3;
     font-size: 25px;
 }
+.productos{
+    font-size: 40px;
+    color: #000000;
+    width: 304.36px;
+    height: 35px;
+    top: 652px;
+    left: 359px;
+
+}
+.destacados{
+    position: absolute ;
+    width: 855px;
+    height: 377px;
+    top: 652px;
+    left: 94px;
+    border-style: ridge 0.2px;
+    background-color: #FFFFFF;
+    display:inline-block
+    
+}
+
 
 
