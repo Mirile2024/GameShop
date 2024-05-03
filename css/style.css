@@ -160,6 +160,7 @@ h2{
     justify-content: center;
     gap: 114px;
     padding-bottom: 60px;
+    flex-flow: wrap;
 }
 .img_silla{
     border-radius: 2px;
