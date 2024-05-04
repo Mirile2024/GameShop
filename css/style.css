@@ -3,7 +3,8 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif ;
-    }
+     @import "bootstrap-icons/font/bootstrap-icons";
+}
 html{
     max-width: 1024px;
 }
@@ -55,6 +56,7 @@ a{
     height: 24px;
     margin-left: 46px;
 }
+
 /* -------------seccion slide----------- */
  .slide{
     background-image: url(../img/fondo.png);
@@ -178,14 +180,28 @@ footer{
     width: 1024px;
     height: 216px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .img_logo{
-    /* --en duda--- */
-    /* display: flex; */
     width: 183px;
     height: 40px;
-    top: 1477px ;
-    left: 45px;
-justify-content: center;
+    padding: 75px;
+    
+}
+.p_redes{
+    font-size: 25px;
+    color: #f3f3f3;
+    padding: 75px;
+}
+.f{
+    width: 32px;
+    height: 32px;
+    display: flex;
+}
+
+.final{
+    text-align: center;
+    font-size: 10px;
 }
