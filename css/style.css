@@ -7,9 +7,9 @@
 
      /* @import "bootstrap-icons/font/bootstrap-icons"; */
 }
-/* html{
+html{
     max-width: 1024px;
-} */
+}
     header{
     background-color: #222222;
     width: 1024px;
@@ -73,6 +73,9 @@ a{
     width: 1024px;
     height: 512px;
     font-size: 40px;
+    display: flex;
+    flex-direction: row;
+
 }
  .slide_porcentaje{
     position: absolute;
@@ -81,7 +84,7 @@ a{
     top:287px ;
     left: 108px;
     color: #F3F3F3;
-    flex: auto;
+    flex: 50%;
 }
 .button_comprar{
     position: absolute;
@@ -194,7 +197,7 @@ footer{
     height: 216px;
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     flex: 50%;
 }
 
@@ -221,13 +224,13 @@ footer{
 .final{
     text-align: center;
     font-size: 10px;
-    display: flex;
-    justify-content: center;
+    flex: 50%;
 }
 /* -------------responsivo------------- */
 @media screen and (max-width:  1024px) {
     body {
       flex-direction: column;
+      
     }
 
   }
