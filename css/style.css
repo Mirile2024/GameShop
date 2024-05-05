@@ -216,16 +216,20 @@ hr {
     width: 183px;
     height: 40px;
 }
+.p-redes{
+    gap: 20px;
+}
 .redes{
     font-size: 25px;
     color: #F3F3F3;
-    gap: 20px;
+
 }
 /* -----------iconos---------------- */
 .f{
    text-decoration: none;
 }
 .icons{
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
