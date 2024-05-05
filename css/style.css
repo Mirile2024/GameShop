@@ -205,7 +205,7 @@ hr {
 
 /* ---------------footer--------- */
 .footer {
-    /* padding: 20px; */
+    gap: 20px;
     height: 216px;
     background-color: #222222;
     display: flex;
