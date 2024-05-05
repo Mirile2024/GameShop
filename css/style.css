@@ -99,7 +99,8 @@ li {
     top: 94px;
     left: 652px;
     gap: 20px;
-
+    display: flex;
+    flex-direction: column;
 }
 
 h2 {
@@ -111,6 +112,7 @@ h2 {
     left: 359px;
     color: #000000;
     font-size: 30px;
+    text-align: center;
 }
 
 .article_pd {
@@ -132,9 +134,10 @@ hr {
 }
 
 .div_pd {
-    gap: 20px;
+    gap: 30px;
     display: flex;
     justify-content: space-around;
+    flex-wrap:wrap
 }
 
 .div_img {
@@ -227,12 +230,6 @@ footer {
     nav{
         display: none;
     }
-    /* ----------responsivo de destacados----------- */
-    .div_pd{
-        align-items: center;
-        flex-direction: column;
-    }
-    /* ------------------controlar desde aca               ------------------------- */
     .productosestrellas{
         /* display: inline-block; */
         /* flex-direction: column; */
